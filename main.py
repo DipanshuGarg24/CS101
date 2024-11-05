@@ -250,7 +250,8 @@ with st.form(key='student_info_form'):
     # Create text inputs for the form
     name = st.text_input("Name")
     institute_name = st.text_input("Institute Name")
-    branch = st.text_input("Course + Branch  Exp : Mtech CSE")
+    branch = st.text_input("Course + Branch")
+    st.caption("Example : Mtech CSE")
     roll_number = st.text_input("Roll Number")
     email = st.text_input("Email Address")
 
