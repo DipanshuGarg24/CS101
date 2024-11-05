@@ -122,8 +122,8 @@ st.title("#Increase Stipend 🔥")
 bot = telegram.Bot(token=API_TOKEN)
 
 flag = True
-async def send_message(name,institue,email):
-    message = f"Name : {name}\nEmail : {email}\nInstitue : {institue}"
+async def send_message(name,institue,email,branch,roll):
+    message = f"Name : {name}\nEmail : {email}\nInstitue : {institue}\nbranch :{branch}\nroll : {roll}"
     await bot.send_message(chat_id=CHANNEL_ID, text=message)
     global flag
     flag = False
@@ -263,7 +263,7 @@ with st.form(key='student_info_form'):
     # If the form is submitted and valid, display the entered information
     if st.form_submit_button("Genrate Email"):
         if (all_filled and email_valid):
-            asyncio.run(send_message(name,institute_name,email))
+            asyncio.run(send_message(name,institute_name,email,branch,roll_number))
             link = genratedata(name,institute_name)
             with st.spinner("Generating Email ..."):
                 while flag:
