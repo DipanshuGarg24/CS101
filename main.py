@@ -175,13 +175,7 @@ Sincerely,
 Enrollment : {e}
 ({i})
 ''')
-    emails = '''hrm@mhrd.gov.in
-secy.he@mhrd.gov.in
-js.he1@mhrd.gov.in
-js.he2@mhrd.gov.in
-dir.te@mhrd.gov.in
-ds.te@mhrd.gov.in
-chairman@aicte-india.org
+    emails = '''chairman@aicte-india.org
 cmoffice@aicte-india.org
 vcm@aicte-india.org
 ea.vcm@aicte-india.org
@@ -194,18 +188,13 @@ director@nitc.ac.in
 director@nitdelhi.ac.in
 director@nitdgp.ac.in
 director@nitgoa.ac.in
-director@nit.hamirpur.gov.in
 director@mnit.ac.in
 director@nitj.ac.in
 director@nitk.ac.in
 director@nitm.ac.in
 director@nitnagaland.ac.in
-director@nitp.net.in
 director@nitrr.ac.in
-director@nitrl.ac.in
-director@nuts.ac.in
 director@nitsikkim.ac.in
-director@nit.srinagar.gov.in
 director@nitt.edu
 director@nitw.ac.in
 director@iitbhilai.ac.in
@@ -228,12 +217,8 @@ director@iitpkd.ac.in
 director@iitp.ac.in
 director@iitr.ac.in
 director@iitrpr.ac.in
-director@iiti.ac.in
 director@iitbhu.ac.in
-pmosb@pmo.nic.in
-psecy@pmo.nic.in
-apsecy@pmo.nic.in
-secy@pmo.nic.in'''
+'''
 
     x = emails.split("\n")
     mail = ",".join(x)
