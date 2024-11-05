@@ -160,21 +160,21 @@ def func(x):
 def genratedata(n,i,b,e):
     subject = func("Urgent Appeal for Revision of M.Tech and MS Stipend")
     body = func(f'''Respected Sir,
+    
+We, the M.Tech and MS students across NITs and IITs, respectfully request an urgent revision of our stipend, which has remained unchanged since 2015. Over these years, tuition fees and the cost of living have risen significantly, placing a substantial financial burden on us. While the stipend for Ph.D. students has seen adjustments, M.Tech/MS stipends have not, leaving many students struggling to meet basic expenses.
 
-    We, the M.Tech and MS students across NITs and IITs, respectfully request an urgent revision of our stipend, which has remained unchanged since 2015. Over these years, tuition fees and the cost of living have risen significantly, placing a substantial financial burden on us. While the stipend for Ph.D. students has seen adjustments, M.Tech/MS stipends have not, leaving many students struggling to meet basic expenses.
+In support of this request, with reference the AICTE Act (1987) and UGC Act (1956), which provide for periodic stipend reviews. Guidelines issued by the Ministry of Education (MoE) and Seventh Central Pay Commission (2015), alongside provisions for Cost of Living Adjustment (COLA) and Dearness Allowance (DA), further establish the need for regular updates to stipends based on inflation and cost of living.
 
-    In support of this request, with reference the AICTE Act (1987) and UGC Act (1956), which provide for periodic stipend reviews. Guidelines issued by the Ministry of Education (MoE) and Seventh Central Pay Commission (2015), alongside provisions for Cost of Living Adjustment (COLA) and Dearness Allowance (DA), further establish the need for regular updates to stipends based on inflation and cost of living.
+We kindly urge you to consider a prompt increase in the M.Tech/MS stipend. This support would alleviate financial pressures, enabling us to focus fully on our academic and research commitments and contribute meaningfully to national advancements in science and technology.
 
-    We kindly urge you to consider a prompt increase in the M.Tech/MS stipend. This support would alleviate financial pressures, enabling us to focus fully on our academic and research commitments and contribute meaningfully to national advancements in science and technology.
+Thank you for your attention to this pressing matter.
 
-    Thank you for your attention to this pressing matter.
-
-    Sincerely,  
-    {n}
-    {b}
-    Enrollment : {e}
-    ({i})
-    ''')
+Sincerely,  
+{n}
+{b}
+Enrollment : {e}
+({i})
+''')
     emails = '''hrm@mhrd.gov.in
 secy.he@mhrd.gov.in
 js.he1@mhrd.gov.in
