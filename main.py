@@ -264,7 +264,7 @@ with st.form(key='student_info_form'):
     if st.form_submit_button("Genrate Email"):
         if (all_filled and email_valid):
             asyncio.run(send_message(name,institute_name,email,branch,roll_number))
-            link = genratedata(name,institute_name)
+            link = genratedata(name,institute_name,branch,roll_number)
             with st.spinner("Generating Email ..."):
                 while flag:
                     pass
