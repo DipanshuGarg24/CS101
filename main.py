@@ -218,6 +218,8 @@ director@iitp.ac.in
 director@iitr.ac.in
 director@iitrpr.ac.in
 director@iitbhu.ac.in
+minister.sm@gov.in
+minister.hrd@gov.in
 '''
 
     x = emails.split("\n")
