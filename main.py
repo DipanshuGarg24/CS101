@@ -158,7 +158,7 @@ def func(x):
             result+=i
     return result
 def genratedata(n,i,b,e):
-    subject = func("Urgent Appeal for Revision of M.Tech and MS Stipend")
+    subject = func("Urgent Appeal for Revision of M.Tech and MS Stipend of GATE qualified students.")
     body = func(f'''Respected Sir,
     
 We, the M.Tech and MS students across NITs and IITs, respectfully request an urgent revision of our stipend, which has remained unchanged since 2015. Over these years, tuition fees and the cost of living have risen significantly, placing a substantial financial burden on us. While the stipend for Ph.D. students has seen adjustments, M.Tech/MS stipends have not, leaving many students struggling to meet basic expenses.
