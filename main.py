@@ -160,16 +160,16 @@ def func(x):
 def genratedata(n,i,b,e):
     subject = func("Urgent Appeal for Revision of M.Tech and MS Stipend of GATE qualified students.")
     body = func(f'''Respected Sir,
-    
-We, the M.Tech and MS students across NITs and IITs, respectfully request an urgent revision of our stipend, which has remained unchanged since 2015. Over these years, tuition fees and the cost of living have risen significantly, placing a substantial financial burden on us. While the stipend for Ph.D. students has seen adjustments, M.Tech/MS stipends have not, leaving many students struggling to meet basic expenses.
+   
+We, the M.Tech and MS students across NITs and IITs who have qualified GATE exam, respectfully request an urgent revision of our stipend, which has remained unchanged since 2015. We are currently receiving a mere amount of Rs12400 since 2015 which is currently insufficient in 2024 as  the tuition fees and the cost of living have risen significantly over these years , placing a substantial financial burden on us. While the stipend for Ph.D. students has seen multiple adjustments over the same period of time. M.Tech/MS stipends have not, leaving many students struggling to meet basic expenses.
 
 In support of this request, with reference the AICTE Act (1987) and UGC Act (1956), which provide for periodic stipend reviews. Guidelines issued by the Ministry of Education (MoE) and Seventh Central Pay Commission (2015), alongside provisions for Cost of Living Adjustment (COLA) and Dearness Allowance (DA), further establish the need for regular updates to stipends based on inflation and cost of living.
 
-We kindly urge you to consider a prompt increase in the M.Tech/MS stipend. This support would alleviate financial pressures, enabling us to focus fully on our academic and research commitments and contribute meaningfully to national advancements in science and technology.
+We kindly urge you to consider a prompt increase in the M.Tech/MS stipend of GATE qualified students.This support would alleviate financial pressures, enabling us to focus fully on our academic and research commitments and contribute meaningfully to national advancements in science and technology.
 
 Thank you for your attention to this pressing matter.
 
-Sincerely,  
+Sincerely,
 {n}
 {b}
 Enrollment : {e}
