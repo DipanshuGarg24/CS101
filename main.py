@@ -252,7 +252,7 @@ with z[1]:
         # Create a submit button that is active only if all fields are filled and email is valid
     
         # If the form is submitted and valid, display the entered information
-        if st.form_submit_button("Genrate Email"):
+        if st.form_submit_button("Generate Email"):
             if (all_filled and email_valid):
                 asyncio.run(send_message(name,institute_name,email,branch,roll_number))
                 link = genratedata(name,institute_name,branch,roll_number)
