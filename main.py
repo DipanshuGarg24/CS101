@@ -260,7 +260,7 @@ with z[1]:
                     while flag:
                         pass
                 st.success("Email Generated Successfully!")
-                st.link_button("Click to send Email",link)
+                st.link_button("Click to send Email",link,type="primary")
             else:
                 st.error("Please Fill all the details Properly")
     
