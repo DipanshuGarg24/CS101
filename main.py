@@ -235,7 +235,7 @@ with z[1]:
     # Set the title of the app
     st.subheader("Make your contribution count by reaching out to the government today to support an increase in our stipend!")
 
-    st.success("This Website is no longer supporting now for contributions :)\nThankyou for visiting")
+    st.warning("This Website is no longer supporting :)")
     
     # Create a form
     # with st.form(key='student_info_form'):
@@ -268,4 +268,4 @@ with z[1]:
     
     st.text("")
     x = st.columns((1,2,1))
-    x[1].text("Thankyou for contributing :) 🙏🏻")
+    x[1].text("Thankyou for Visiting :) 🙏🏻")
